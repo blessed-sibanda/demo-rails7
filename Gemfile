@@ -72,3 +72,5 @@ group :test do
 end
 
 gem "cssbundling-rails", "~> 1.1"
+
+gem "bootstrap_form", "~> 5.0"
