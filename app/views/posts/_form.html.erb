@@ -1,6 +1,6 @@
-<%= bootstrap_form_with(model: postx) do |form| %>
+<%= bootstrap_form_with(model: post) do |form| %>
   <%= render 'shared/form_error', resource: post %>
   <%= form.text_field :title %>
-  <%= form.text_area :content %>
+  <%= form.rich_text_area :content %>
   <%= form.submit %>
 <% end %>
